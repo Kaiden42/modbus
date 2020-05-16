@@ -81,7 +81,7 @@ def run_updating_server():
     # initialize the server information
     # ----------------------------------------------------------------------- # 
     identity = ModbusDeviceIdentification()
-    identity.VendorName = 'pymodbus'
+    identity.VendorName = 'Pymodbus'
     identity.ProductCode = 'PM'
     identity.VendorUrl = 'http://github.com/bashwork/pymodbus/'
     identity.ProductName = 'pymodbus Server'
